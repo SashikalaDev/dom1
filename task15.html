@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <center> <div id="id1">
+    <div id="id3">10000 Coders Institute</div>
+    <div ><img id="id2"></div>
+    <div>
+       <b> <p class="c1">Name:Varada Sashikala</p>
+        <p class="c1">ID_No:170396</p>
+        <p class="c1">Batch No:23R</p>
+        <p class="c1">Mobile No:8074803657</p>
+        <p class="c1">Email:varadasashikala@gmail.com</p></b>
+    </div>
+
+   </div></center>
+   <script>
+    let x=document.getElementById("id1")
+    x.style.border="2px solid black"
+    x.style.height="420px"
+    x.style.width="300px"
+    x.style.backgroundColor="#157DEC"
+    x.style.borderRadius="20px"
+    let y=document.getElementById("id2")
+    y.setAttribute("src","../Assests/Images/pass photo 1.jpg")
+    y.setAttribute("height","100")
+    y.setAttribute("width","100")
+    y.style.borderRadius="50%"
+    y.style.border="5px solid black"
+   
+    let z=document.getElementById("id3")
+    z.innerHTML="<h1>10000 CODERS INSTITUTION</h1>"
+    z.style.fontFamily="Arial"
+    let x1=document.getElementsByClassName("c1")
+    x1[4].innerHTML="<i>Email:varadasashikala@gmail.com"
+        x1[3].innerHTML="<i>Mobile No:8074803657"
+    
+   </script>
+</body>
+</html>
